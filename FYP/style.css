@@ -1,0 +1,61 @@
+/* Basic styles for the container */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#prompt {
+  width: 80%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Styling for the generate button */
+#generate-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+/* Accept and Reject buttons styles */
+.accept {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+.reject {
+  background-color: #f44336;
+  color: white;
+  border: none;
+}
+
+/* Hidden class to initially hide the schedule output */
+.hidden {
+  display: none;
+}
+
+#schedule-output {
+  margin-top: 20px;
+}
+
+#schedule-content {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
